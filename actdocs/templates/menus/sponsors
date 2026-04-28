@@ -1,0 +1,8 @@
+[% WRAPPER menus/item %]
+  <a href="[% make_uri('sponsors.html') %]">
+    <i class="fa fa-star hidden-md hidden-lg"></i><span class="hidden-sm"> Sponsors</span>
+  </a>
+  <a href="[% make_uri('sponsoring.html') %]">
+    <i class="fa fa-star hidden-md hidden-lg"></i><span class="hidden-sm"> Become a Sponsor</span>
+  </a>
+[% END %]

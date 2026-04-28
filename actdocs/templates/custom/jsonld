@@ -1,0 +1,56 @@
+<!-- JSON-LD -->
+<script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "Event",
+  "name": "London Perl & Raku Workshop, 2024",
+  "url": "[% global.config.general_full_uri %]",
+  "description": "London Perl & Raku Workshop. Perl & Raku Conference and training in London.",
+  "startDate": "2024-10-19T09:30",
+  "endDate": "2024-10-19T18:00",
+  "location": {
+    "@type": "Place",
+    "name": "David Game College",
+    "sameAs": "https://www.davidgamecollege.com/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "31 Jewry Street",
+      "addressLocality": "London",
+      "postalCode": "EC3N 2ET",
+      "addressCountry": "United Kingdom"
+    }
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": 0,
+    "lowPrice": [% global.config.product_registration_price5_amount %],
+    "offerCount": 5,
+    "offers": [{
+      "@type": "Offer",
+      "description": "Workshop Attendee",
+      "price": "[% global.config.product_registration_price1_amount %]",
+      "priceCurrency": "GBP"
+    },{
+      "@type": "Offer",
+      "description": "Workshop Friend",
+      "price": "[% global.config.product_registration_price2_amount %]",
+      "priceCurrency": "GBP"
+    },{
+      "@type": "Offer",
+      "description": "Workshop Lover",
+      "price": "[% global.config.product_registration_price3_amount %]",
+      "priceCurrency": "GBP"
+    },{
+      "@type": "Offer",
+      "description": "Workshop Sponsor",
+      "price": "[% global.config.product_registration_price4_amount %]",
+      "priceCurrency": "GBP"
+    },{
+      "@type": "Offer",
+      "description": "Workshop Business",
+      "price": "[% global.config.product_registration_price5_amount %]",
+      "priceCurrency": "GBP"
+    }]
+  }
+}
+</script>

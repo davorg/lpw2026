@@ -1,0 +1,166 @@
+<div class="row">
+    <div class="col-xs-12">
+        <h3>Sponsors</h3>
+        <p><small><a href="[% make_uri_info('sponsoring.html') %]">Read more about sponsoring LPW2024</a></small></p>
+    </div>
+
+<!-- Diamond -->
+<div class="col-xs-12" style="margin-bottom: 1em;"><strong>Diamond:</strong></div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://tech.deriv.com/">
+            <img src="[% make_uri_info('images/logos/scaled/deriv.png') %]" border="0" alt="deriv" class="img-responsive" style="margin-bottom: 3em;">
+        </a>
+    </div>
+
+<!-- Platinum -->
+<!--
+<div class="col-xs-12" style="margin-bottom: 1em;"><strong>Platinum:</strong></div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://www.booking.com/">
+            <img src="[% make_uri_info('images/logos/scaled/booking.png') %]" border="0" alt="Booking.com" class="img-responsive" style="margin-bottom: 3em;">
+        </a>
+    </div>
+-->
+
+<!-- Gold -->
+<div class="col-xs-12" style="margin-bottom: 1em;"><strong>Gold:</strong></div>
+
+<!--
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://www.cpanel.net/">
+            <img src="[% make_uri_info('images/logos/scaled/cpanel.png') %]" border="0" alt="Eligo" class="img-responsive" style="margin-bottom: 3em;">
+        </a>
+    </div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://www.pirum.com/">
+            <img src="[% make_uri_info('images/logos/scaled/pirum.png') %]" border="0" alt="Eligo" class="img-responsive" style="margin-bottom: 3em;">
+        </a>
+    </div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="http://eligo.co.uk/">
+            <img src="[% make_uri_info('images/logos/scaled/eligo.png') %]" border="0" alt="Eligo" class="img-responsive" style="margin-bottom: 3em;">
+        </a>
+    </div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://perl.careers/jobs/">
+            <img src="[% make_uri_info('images/logos/scaled/perlcareers.png') %]" border="0" alt="Perl Jobs by Perl Careers" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+-->
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://www.cv-library.co.uk/">
+            <img src="[% make_uri_info('images/logos/scaled/cvl.png') %]" border="0" alt="CV Library" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://oleeo.com/">
+            <img src="[% make_uri_info('images/logos/scaled/oleeo.png') %]" border="0" alt="Oleeo" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+
+<!-- Silver -->
+<div class="col-xs-12" style="margin-bottom: 1em;"><strong>Silver:</strong></div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://geekuni.com/corporate-perl-training">
+            <img src="[% make_uri_info('images/logos/scaled/geekuni.png') %]" border="0" alt="Geekuni" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://geizhals.de/">
+            <img src="[% make_uri_info('images/logos/scaled/geizhals.png') %]" border="0" alt="Geizhals" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://datensegler.at/">
+            <img src="[% make_uri_info('images/logos/scaled/datensegler.png') %]" border="0" alt="Datensegler" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://www.spareroom.co.uk/">
+            <img src="[% make_uri_info('images/logos/scaled/spareroom.png') %]" border="0" alt="Spareroom" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://www.payprop.com/">
+            <img src="[% make_uri_info('images/logos/scaled/payprop.png') %]" border="0" alt="PayProp" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+
+<div class="col-xs-12" style="margin-bottom: 1em;"><strong>Bronze:</strong></div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="http://www.meterian.io/">
+            <img src="[% make_uri_info('images/logos/scaled/meterian.jpg') %]" border="0" alt="Meterian" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://www.perlfoundation.org/">
+            <img src="[% make_uri_info('images/logos/scaled/logo_tprf.png') %]" border="0" alt="TPRF" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+<!--
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://adestra.com/">
+            <img src="[% make_uri_info('images/logos/scaled/adestra.png') %]" border="0" alt="Adestra" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://www.perl-services.de">
+            <img src="[% make_uri_info('images/logos/scaled/perlservices.png') %]" border="0" alt="Perl Services" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://opusvl.com/">
+            <img src="[% make_uri_info('images/logos/scaled/opusvl.png') %]" border="0" alt="Opus VL" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+
+<div class="col-xs-12" style="margin-bottom: 1em;">
+    <strong>Bronze and Community:</strong>
+</div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://www.cogendo.com">
+            <img src="[% make_uri_info('images/logos/scaled/cogendo.png') %]" border="0" alt="Cogendo" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://ww2.enlightenedperl.org">
+            <img src="[% make_uri_info('images/logos/scaled/epo.png') %]" border="0" alt="Enlightened Perl Organisation" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://www.ctrlo.com/">
+            <img src="[% make_uri_info('images/logos/scaled/ctrl-o.png') %]" border="0" alt="Ctrl O" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+
+    <div class="col-xs-12 col-xs-offset-1 text-center;">
+        <a href="https://geekuni.com/">
+            <img src="[% make_uri_info('images/logos/scaled/geekuni.png') %]" border="0" alt="Geekuni" class="img-responsive" style="margin-bottom: 2em;">
+        </a>
+    </div>
+-->
+
+<div class="col-xs-12" style="margin-bottom: 1em;">
+    <p><small>
+        More information about all of our valued sponsors is available <a href="[% make_uri_info('sponsors.html') %]">on our sponsors page</a>.
+    </small></p>
+</div>
+
+</div>
