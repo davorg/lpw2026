@@ -27,31 +27,38 @@
 
       <div class="col-md-9">
         [% IF global.request.user.is_staff %]
+        <div class="row">
           <div class="col-xs-6 col-sm-4">
             <strong><span class="glyphicon glyphicon-user"></span> {{Login}}</strong>
           </div>
           <div class="col-xs-6 col-sm-8">
             [% login %]
           </div>
+        </div>
         [% END %]
 
         [%- IF user.town %]
+        <div class="row">
           <div class="col-xs-6 col-sm-4">
             <strong><span class="glyphicon glyphicon-home"></span> {{City}}</strong>
           </div>
           <div class="col-xs-6 col-sm-8">
             [% user.town %]
           </div>
+        </div>
         [% END %]
 
-        <div class="col-xs-6 col-sm-4">
-          <strong><span class="glyphicon glyphicon-globe"></span> {{Country}}</strong>
-        </div>
-        <div class="col-xs-6 col-sm-8">
-          [% country %]
+        <div class="row">
+          <div class="col-xs-6 col-sm-4">
+            <strong><span class="glyphicon glyphicon-globe"></span> {{Country}}</strong>
+          </div>
+          <div class="col-xs-6 col-sm-8">
+            [% country %]
+          </div>
         </div>
 
         [%- IF user.pm_group %]
+        <div class="row">
           <div class="col-xs-6 col-sm-4">
             <strong><span class="glyphicon glyphicon-glass"></span> {{Perl mongers group}}</strong>
           </div>
@@ -59,69 +66,84 @@
             [% IF user.pm_group_url %]<a href="[% user.pm_group_url %]">[% user.pm_group %]</a>
             [% ELSE %][% user.pm_group %][% END %]
           </div>
+        </div>
         [% END %]
 
         [% IF user.company %]
+        <div class="row">
           <div class="col-xs-6 col-sm-4">
             <strong><span class="glyphicon glyphicon-briefcase"></span> {{Company}}</strong>
           </div>
           <div class="col-xs-6 col-sm-8">
             [% "<a href=\"${user.company_url}\">" IF user.company_url %][% user.company %][% '</a>' IF user.company_url %]
           </div>
+        </div>
         [% END %]
 
         [%- IF NOT user.email_hide OR global.request.user.is_users_admin %]
+        <div class="row">
           <div class="col-xs-6 col-sm-4">
             <strong><span class="glyphicon glyphicon-envelope"></span> {{Email}}</strong>
           </div>
           <div class="col-xs-6 col-sm-8">
            <tt><a href="mailto:[% user.email %]">[% user.email %]</a></tt>
           </div>
+        </div>
         [% END %]
 
         [%- IF user.web_page %]
+        <div class="row">
           <div class="col-xs-6 col-sm-4">
             <strong><span class="glyphicon glyphicon-file"></span> {{Web page}}</strong>
           </div>
           <div class="col-xs-6 col-sm-8">
             <tt><a href="[% user.web_page %]">[% user.web_page %]</a></tt>
           </div>
+        </div>
         [% END %]
 
         [%- IF user.pause_id %]
+        <div class="row">
           <div class="col-xs-6 col-sm-4">
             <strong><span class="glyphicon glyphicon-info-sign"></span> <a href="https://pause.perl.org/">PAUSE</a> id</strong>
           </div>
           <div class="col-xs-6 col-sm-8">
             <a href="https://metacpan.org/author/[% user.pause_id %]/" >[% user.pause_id %]</a>
           </div>
+        </div>
         [% END %]
 
         [%- IF user.monk_id %]
+        <div class="row">
           <div class="col-xs-6 col-sm-4">
             <strong><span class="glyphicon glyphicon-tag"></span> Perlmonks id</strong>
           </div>
           <div class="col-xs-6 col-sm-8">
             <a href="http://perlmonks.org/index.pl?node_id=[% user.monk_id %]" >[% user.monk_name OR user.monk_id %]</a>
           </div>
+        </div>
         [% END %]
 
         [%- IF user.im %]
+        <div class="row">
           <div class="col-xs-6 col-sm-4">
             <strong><span class="glyphicon glyphicon-comment"></span> {{IM}}</strong>
           </div>
           <div class="col-xs-6 col-sm-8">
             [% user.im %]
           </div>
+        </div>
         [% END %]
 
         [%- IF user.gpg_key_id %]
+        <div class="row">
           <div class="col-xs-6 col-sm-4">
             <strong><span class="glyphicon glyphicon-lock"></span> {{GPG key ID}}</strong>
           </div>
           <div class="col-xs-6 col-sm-8">
             <a href="http://pgp.mit.edu:11371/pks/lookup?op=vindex&search=0x[% user.gpg_key_id %]">0x[% user.gpg_key_id %]</a>
           </div>
+        </div>
         [% END %]
       </div>
     </div>
