@@ -42,7 +42,7 @@
 <p><b>{{You can:}}</b></p>
 <ul>
     [% IF global.request.user.has_registered %]
-      <li><a href="[% make_uri('purchase.html') %]">make a donation to LPW</a><br /></li>
+      [%# <li><a href="[% make_uri('purchase.html') %]">make a donation to LPW</a><br /></li> %]
     [% ELSIF !global.config.closed %]
       <li><a href="[% make_uri('register') %]">{{register for this conference}}</a><br /></li>
     [% END %]
